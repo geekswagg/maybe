@@ -9,7 +9,7 @@ gem "rails", github: "rails/rails", branch: "7-2-stable"
 gem "pg", "~> 1.5"
 
 # Deployment
-gem "puma", ">= 5.0"
+gem "puma", ">= 6.4.3"
 gem "bootsnap", require: false
 
 # Assets
