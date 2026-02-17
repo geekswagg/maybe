@@ -39,10 +39,10 @@ gem "image_processing", ">= 1.2"
 
 # Other
 gem "bcrypt", "~> 3.1"
-gem "faraday"
-gem "faraday-retry"
+gem "faraday", ">= 2.14.1"
+gem "faraday-retry", ">= 2.3.0"
 gem "inline_svg"
-gem "octokit"
+gem "octokit", ">= 9.0.0"
 gem "pagy"
 gem "rails-settings-cached"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
